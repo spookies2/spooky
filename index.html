@@ -3,12 +3,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <body>
     <h1> boop </h1>
-    <p> Hi guys I have something to share.</p>
-    <p> You are very <strong>stinky</strong> if you read this</p>
-    <p> take a shower thank.</p>
+    <p> Hi guys I have something to share. You are very <span class="multicolortext"><strong>stinky</strong></span> if you read this
+    take a shower thank.</p>
   </body>
   
   <style>
+    .multicolortext {
+      background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      
     p {outline : #915924 solid 10px;
       margin : 10px 400px 0px 400px;
       padding : 25px 0px 500px 0px;
